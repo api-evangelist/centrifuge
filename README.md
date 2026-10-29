@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Centrifuge is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by crane-venture-partners) and added to the network as a stub for full-pipeline profiling.
-- https://centrifuge.io/
+Centrifuge is a decentralized finance (DeFi) platform that enables businesses to tokenize real‑world assets and obtain financing through blockchain technology. The company provides a GraphQL API that developers can use to interact with asset pools, submit financing requests, and retrieve on‑chain data. Backed by Crane Venture Partners, Centrifuge focuses on bridging traditional finance and decentralized ecosystems, offering tools for asset originators, investors, and developers.
+
+**Areas:** Company · DeFi · Asset-Tokenization · Blockchain · FinTech
+
+## Centrifuge on APIs.io
+
+Everything profiled for Centrifuge is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/centrifuge/](https://apis.io/providers/centrifuge/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Centrifuge API](https://apis.io/apis/centrifuge/centrifuge-api-2/) — Centrifuge provides a GraphQL API for interacting with asset pools and financing requests, as documented on the developer portal.
+- [Centrifuge API](https://apis.io/apis/centrifuge/centrifuge-api/) — Centrifuge API as documented publicly: 7 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetBridgeQuoteResponse](https://apis.io/schemas/centrifuge/centrifuge-get-bridge-quote-response/)
+- [GetBridgeRoutesResponse](https://apis.io/schemas/centrifuge/centrifuge-get-bridge-routes-response/)
+- [GetBridgeStatusResponse](https://apis.io/schemas/centrifuge/centrifuge-get-bridge-status-response/)
+- [GetBridgeTransactionTxhashResponse](https://apis.io/schemas/centrifuge/centrifuge-get-bridge-transaction-txhash-response/)
+- [GetPingResponse](https://apis.io/schemas/centrifuge/centrifuge-get-ping-response/)
+- [GetTokensAddressTotalIssuanceResponse](https://apis.io/schemas/centrifuge/centrifuge-get-tokens-address-total-issuance-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Centrifuge Context](https://apis.io/jsonld/centrifuge/centrifuge-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Centrifuge API Rules](https://apis.io/rules/centrifuge/centrifuge-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Centrifuge Domain Security](https://apis.io/security/centrifuge/centrifuge-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://centrifuge.io/)
+- [Documentation](https://api.centrifuge.io/)
+- [Getting started](https://api.centrifuge.io/)
+- [API reference](https://api.centrifuge.io/)
+- [Blog](https://centrifuge.io/blog)
+- [Terms of service](https://centrifuge.io/terms)
+- [GitHub](https://github.com/centrifuge/)
+
+## API Evangelist rating
+
+**Kin Score 39.9** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 51.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 10.5 |
+
+**Agent readiness 21.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/centrifuge/](https://apis.io/providers/centrifuge/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Centrifuge: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/centrifuge/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
